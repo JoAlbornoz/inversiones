@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>A ver si así la ves</title>
+    <style>
+        body {
+            background-color: black;
+            color: white;
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+
+        .container {
+            max-width: 600px; /* Ancho máximo para todos los textos */
+            margin: 0 auto; /* Centrar la caja en la pantalla */
+            padding: 20px;
+        }
+
+        h1, h2, p {
+            margin-bottom: 20px;
+        }
+
+        h2 {
+            margin-bottom: 50px; /* Espacio pequeño entre el segundo y tercer encabezado */
+        }
+
+        #extra-space {
+            margin-bottom: 120px; /* Espacio grande debajo del "Empezá a invertir hoy" */
+        }
+
+        #final-text p {
+            margin: 0;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>La educación no es un curro</h1>
+        <h2>es la inversión a futuro de miles de argentinos y habitantes de esta patria. <br> 
+        </h2>
+        <h2 id="extra-space">Vos también podés empezar a invertir hoy</h2>
+
+        <div id="final-text">
+            <p>Un pueblo culto nunca puede ser esclavizado <br> Miercoles 2 de Octubre 2024 </p>
+        </div>
+    </div>
+
+    <script>
+        setTimeout(function() {
+            var urls = [
+                "http://www.uba.ar",
+                "https://www.unaj.edu.ar/",
+                "http://www.undav.edu.ar/",
+                "http://www.unca.edu.ar",
+                "http://www.undec.edu.ar",
+                "http://www.unc.edu.ar",
+                "http://www.uncu.edu.ar",
+                "http://www.uner.edu.ar",
+                "http://www.unf.edu.ar",
+                "http://www.unsam.edu.ar",
+                "http://www.ungs.edu.ar",
+                "https://www.unpaz.edu.ar/",
+                "http://www.unju.edu.ar",
+                "http://www.unlam.edu.ar",
+                "http://www.unlpam.edu.ar",
+                "http://www.unpa.edu.ar",
+                "http://www.unp.edu.ar",
+                "http://www.unlp.edu.ar",
+                "http://www.unlar.edu.ar",
+                "http://www.unla.edu.ar",
+                "http://www.unlz.edu.ar",
+                "http://www.unlu.edu.ar",
+                "http://www.mdp.edu.ar",
+                "http://www.unam.edu.ar",
+                "http://www.unm.edu.ar",
+                "http://www.unq.edu.ar",
+                "http://www.unrc.edu.ar",
+                "http://www.unrn.edu.ar",
+                "http://www.unr.edu.ar",
+                "http://www.unsa.edu.ar",
+                "http://www.unsj.edu.ar",
+                "http://www.unsl.edu.ar",
+                "http://www.unse.edu.ar",
+                "http://www.untdf.edu.ar/",
+                "http://www.untref.edu.ar",
+                "http://www.unt.edu.ar",
+                "http://www.unvm.edu.ar",
+                "https://www.unvime.edu.ar/",
+                "http://www.unicen.edu.ar",
+                "http://www.uncaus.edu.ar",
+                "http://www.uncoma.edu.ar",
+                "http://www.unl.edu.ar",
+                "http://www.unne.edu.ar",
+                "http://www.unnoba.edu.ar",
+                "http://www.uno.edu.ar/",
+                "http://www.uns.edu.ar",
+                "http://www.utn.edu.ar"
+            ];
+
+            var randomIndex = Math.floor(Math.random() * urls.length);
+            var randomUrl = urls[randomIndex];
+
+            window.location.replace(randomUrl);
+        }, 5000); 
+    </script>
+    <!-- VIVA LA UNIVERSIDAD PÚBLICA CARAJO -->
+</body>
+</html>
